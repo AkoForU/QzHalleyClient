@@ -25,7 +25,8 @@ namespace Main
         public LoginRegisterWindow(bool state)
         {
             InitializeComponent();
-            this.ResizeMode = ResizeMode.NoResize;
+            ResizeMode = ResizeMode.NoResize;
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
             _state = state;
             PageSetter();
         }

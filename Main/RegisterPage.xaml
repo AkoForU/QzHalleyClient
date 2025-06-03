@@ -123,6 +123,10 @@
                 </MultiTrigger>
             </Style.Triggers>
         </Style>
+        <Style x:Key="ChechBoxText" TargetType="{x:Type CheckBox}">
+            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="Foreground" Value="Gray"/>
+        </Style>
         <Style x:Key="PasswordBoxStyle" TargetType="{x:Type PasswordBox}">
             <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
             <Setter Property="BorderBrush" Value="{StaticResource TextBox.Static.Border}"/>
@@ -328,7 +332,7 @@
                         </Grid>
                     </StackPanel>
                 </StackPanel>
-                <CheckBox Margin="10" Name="showPassword" Unchecked="ShowPassword_Unchecked"  Checked="ShowPassword_Checked" Content="Show Password"/>
+                <CheckBox Margin="10" Name="showPassword" Unchecked="ShowPassword_Unchecked"  Checked="ShowPassword_Checked" Content="Show Password" Style="{DynamicResource ChechBoxText}"/>
             </StackPanel>
             <Button Grid.Row="3" Margin="0,20,300,50" Style="{DynamicResource RoundButtons}" Content="Add User" Height="45"/>
         </Grid>

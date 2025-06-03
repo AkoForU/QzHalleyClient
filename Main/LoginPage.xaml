@@ -160,6 +160,10 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="ChechBoxText" TargetType="{x:Type CheckBox}">
+            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="Foreground" Value="Gray"/>
+        </Style>
     </Page.Resources>
 
     <Grid>
@@ -318,7 +322,7 @@
                     <PasswordBox x:Name="passwordBox" Style="{DynamicResource PasswordBoxStyle}" PasswordChar="*" Margin="0,5,50,0" />
                     <TextBox x:Name="passwordTxtBox" Visibility="Collapsed" Style="{DynamicResource InputText}" Margin="0,5,50,0" />
                 </Grid>
-                <CheckBox Margin="10" Name="showPassword" Unchecked="ShowPassword_Unchecked"  Checked="ShowPassword_Checked" />
+                <CheckBox Margin="10" Name="showPassword" Unchecked="ShowPassword_Unchecked"  Checked="ShowPassword_Checked" Content="Show Password" Style="{DynamicResource ChechBoxText}"/>
             </StackPanel>
             <Button Grid.Row="3" Margin="0,20,300,50" Style="{DynamicResource RoundButtons}" Content="Authenticate" Height="45"/>
         </Grid>

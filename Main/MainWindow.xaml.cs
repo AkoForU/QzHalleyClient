@@ -20,12 +20,13 @@ namespace Main
         public MainWindow()
         {
             InitializeComponent();
-            this.ResizeMode = ResizeMode.NoResize;
+            ResizeMode = ResizeMode.NoResize;
+            WindowStartupLocation =WindowStartupLocation.CenterScreen;
         }
 
         private void authenticate_Click(object sender, RoutedEventArgs e)
         {
-            LoginRegisterWindow login=new LoginRegisterWindow(false);
+            LoginRegisterWindow login=new LoginRegisterWindow(true);
             login.Title = "Login";
             login.Show();
         }
