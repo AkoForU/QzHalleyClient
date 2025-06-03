@@ -22,5 +22,12 @@ namespace Main
             InitializeComponent();
             this.ResizeMode = ResizeMode.NoResize;
         }
+
+        private void authenticate_Click(object sender, RoutedEventArgs e)
+        {
+            LoginRegisterWindow login=new LoginRegisterWindow(false);
+            login.Title = "Login";
+            login.Show();
+        }
     }
 }

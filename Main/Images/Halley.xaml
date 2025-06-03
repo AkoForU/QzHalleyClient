@@ -7,44 +7,44 @@
     </Canvas.RenderTransform>
     <Canvas.Resources/>
     <!--Unknown tag: sodipodi:namedview-->
-    <Canvas Name="g24">
-      <Canvas.RenderTransform>
+        <Canvas>
+            <Canvas.RenderTransform>
         <TransformGroup>
           <ScaleTransform ScaleX="0.100000" ScaleY="-0.100000"/>
           <TranslateTransform X="0.000000" Y="225.000000"/>
         </TransformGroup>
       </Canvas.RenderTransform>
-      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path2" Fill="#FF000000">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
         <Path.Data>
           <PathGeometry Figures="M340 1574 c-218 -59 -369 -295 -332 -519 53 -319 392 -488 682 -340 65 34 123 87 170 157 39 59 40 62 21 70 -16 5 -21 16 -21 43 0 31 -3 35 -25 35 -21 0 -26 -6 -31 -40 l-7 -40 -73 0 c-41 0 -74 3 -74 8 0 4 16 88 35 187 19 99 35 181 35 183 0 1 38 2 85 2 47 0 85 3 85 7 0 3 -14 28 -31 55 -59 91 -175 173 -280 197 -62 15 -175 12 -239 -5z m110 -314 c0 -57 1 -60 25 -60 24 0 25 3 25 60 l0 60 65 0 65 0 0 -190 0 -191 -62 3 -63 3 -3 83 c-3 79 -4 82 -27 82 -23 0 -24 -3 -27 -82 l-3 -83 -65 0 -65 0 -3 188 -2 187 70 0 70 0 0 -60z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
-      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path4" Fill="#FF000000">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
         <Path.Data>
           <PathGeometry Figures="M905 1303 c41 -96 44 -221 9 -335 -5 -16 2 -18 51 -18 52 0 55 1 50 23 -14 60 -75 337 -75 342 0 3 -9 5 -21 5 -16 0 -19 -4 -14 -17z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
-      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path6" Fill="#FF000000">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
         <Path.Data>
           <PathGeometry Figures="M1047 1313 c-4 -3 -7 -87 -7 -185 l0 -178 115 0 115 0 0 35 c0 35 0 35 -45 35 l-45 0 0 150 0 150 -63 0 c-35 0 -67 -3 -70 -7z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
-      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path8" Fill="#FF000000">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
         <Path.Data>
           <PathGeometry Figures="M1290 1135 l0 -185 115 0 115 0 0 35 c0 35 0 35 -45 35 l-45 0 0 150 0 150 -70 0 -70 0 0 -185z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
-      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path10" Fill="#FF000000">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
         <Path.Data>
           <PathGeometry Figures="M1540 1135 l0 -185 115 0 115 0 0 35 c0 35 0 35 -45 35 l-45 0 0 45 0 45 45 0 45 0 0 40 0 40 -45 0 c-41 0 -45 2 -45 25 0 23 4 25 45 25 l45 0 0 40 0 40 -115 0 -115 0 0 -185z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
-      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path12" Fill="#FF000000">
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
         <Path.Data>
           <PathGeometry Figures="M1790 1315 c0 -3 25 -55 55 -115 51 -102 55 -115 55 -180 l0 -70 70 0 70 0 0 70 c0 65 4 78 55 180 30 60 55 112 55 115 0 3 -30 5 -66 5 l-66 0 -21 -50 c-11 -27 -23 -50 -26 -50 -4 0 -16 23 -28 50 l-22 50 -65 0 c-36 0 -66 -2 -66 -5z" FillRule="NonZero"/>
         </Path.Data>
       </Path>
-            <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path14" Fill="#FF000000">
+            <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Fill="#FF000000">
                 <Path.Data>
                     <PathGeometry Figures="M827 1180 c-11 -40 -8 -70 6 -70 9 0 12 12 9 38 -5 54 -8 59 -15 32z" FillRule="NonZero"/>
                 </Path.Data>
