@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\halley.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\halley.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Images\icon.xaml">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
