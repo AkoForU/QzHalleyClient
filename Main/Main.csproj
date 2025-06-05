@@ -11,18 +11,24 @@
 
   <ItemGroup>
     <None Remove="Images\halley.ico" />
+    <None Remove="Images\icons\Add.png" />
     <None Remove="Images\icons\Home.png" />
+    <None Remove="Images\icons\Info.png" />
     <None Remove="Images\icons\Settings.png" />
+    <None Remove="Images\icons\user.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Images\halley.ico" />
+    <Resource Include="Images\icons\Add.png" />
     <Resource Include="Images\icons\Home.png">
       <CopyToOutputDirectory></CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\icons\Info.png" />
     <Resource Include="Images\icons\Settings.png">
       <CopyToOutputDirectory></CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Images\icons\User.png" />
   </ItemGroup>
 
   <ItemGroup>
