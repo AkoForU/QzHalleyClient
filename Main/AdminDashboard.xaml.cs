@@ -24,5 +24,11 @@ namespace Main
         {
             InitializeComponent();
         }
+
+        private void UserAddBtn_Click(object sender, RoutedEventArgs e)
+        {
+            LoginRegisterWindow register = new LoginRegisterWindow(false);
+            register.Show();
+        }
     }
 }

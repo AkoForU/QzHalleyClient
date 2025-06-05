@@ -123,22 +123,22 @@
                             </DataTemplate>
                         </Button.ContentTemplate>
                     </Button>
-                    <Button Content="Edit Quiz" Style="{StaticResource ActionButtonStyle}">
+                    <Button Style="{StaticResource ActionButtonStyle}">
                         <Button.ContentTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
                                     <Image Source="/Images/icons/Settings.png" Height="20" Margin="0,0,5,0"/>
-                                    <TextBlock Text="Edit Quiz"/>
+                                    <TextBlock Text="Settings"/>
                                 </StackPanel>
                             </DataTemplate>
                         </Button.ContentTemplate>
                     </Button>
-                    <Button Content="Delete Quiz" Style="{StaticResource ActionButtonStyle}">
+                    <Button x:Name="UserAddBtn" Style="{StaticResource ActionButtonStyle}" Click="UserAddBtn_Click">
                         <Button.ContentTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal">
-                                    <Image Source="/Images/icons/Delete.png" Height="20" Margin="0,0,5,0"/>
-                                    <TextBlock Text="Delete Quiz"/>
+                                    <Image Source="/Images/icons/User.png" Height="20" Margin="0,0,5,0"/>
+                                    <TextBlock Text="Add Users"/>
                                 </StackPanel>
                             </DataTemplate>
                         </Button.ContentTemplate>
@@ -167,7 +167,7 @@
         <Border Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource DashboardCardStyle}" MaxWidth="600">
             <StackPanel>
                 <TextBlock Text="Recent Quiz Activity" Style="{StaticResource StatTextStyle}" FontWeight="Bold"/>
-                <TextBlock Text="Quiz 'tmp' created at 00:00" Style="{StaticResource StatTextStyle}"/>
+                <TextBlock Text="User 'tmp' created at 00:00" Style="{StaticResource StatTextStyle}"/>
                 <TextBlock Text="Quiz 'Halley' completed at 00:00 with score 90%" Style="{StaticResource StatTextStyle}"/>
             </StackPanel>
         </Border>

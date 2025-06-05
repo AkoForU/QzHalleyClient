@@ -38,7 +38,7 @@ namespace Main
                 loginFrame.Name = "LoginPage";
                 ContentFrame.Children.Clear();
                 ContentFrame.Children.Add(loginFrame);
-                loginFrame.Navigate(new LoginPage());
+                loginFrame.Navigate(new LoginPage(this));
             }
             else
             {
@@ -46,7 +46,7 @@ namespace Main
                 addUserFrame.Name = "AddUser";
                 ContentFrame.Children.Clear();
                 ContentFrame.Children.Add(addUserFrame);
-                addUserFrame.Navigate(new RegisterPage());
+                addUserFrame.Navigate(new RegisterPage(this));
             }
         }
     }

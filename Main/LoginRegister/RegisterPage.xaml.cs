@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
@@ -20,9 +21,11 @@ namespace Main
     /// </summary>
     public partial class RegisterPage : Page
     {
-        public RegisterPage()
+        LoginRegisterWindow loginRegisterWindow;
+        public RegisterPage(LoginRegisterWindow tmp)
         {
             InitializeComponent();
+            loginRegisterWindow = tmp;
         }
 
         private void ShowPassword_Checked(object sender, RoutedEventArgs e)
@@ -43,6 +46,11 @@ namespace Main
             passwordBox.Visibility = Visibility.Visible;
             passwordBoxRepeat.Visibility = Visibility.Visible;
             passwordTxtBoxRepeat.Visibility = Visibility.Collapsed;
+        }
+
+        private void BackButton(object sender, RoutedEventArgs e)
+        {
+            loginRegisterWindow.Close();
         }
     }
 }

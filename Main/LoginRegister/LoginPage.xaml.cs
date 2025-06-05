@@ -20,9 +20,11 @@ namespace Main
     /// </summary>
     public partial class LoginPage : Page
     {
-        public LoginPage()
+        LoginRegisterWindow loginRegisterWindow;
+        public LoginPage(LoginRegisterWindow tmp)
         {
             InitializeComponent();
+            loginRegisterWindow = tmp;
         }
         private void ShowPassword_Checked(object sender, RoutedEventArgs e)
         {
@@ -36,6 +38,14 @@ namespace Main
             passwordBox.Password = passwordTxtBox.Text;
             passwordTxtBox.Visibility = Visibility.Collapsed;
             passwordBox.Visibility = Visibility.Visible;
+        }
+
+        private void AuthenticateButton_Click(object sender, RoutedEventArgs e)
+        {
+            //this is only temporary, rememba to delete this, u need to make a secure authenticator
+            AdminWindow adminWindow = new AdminWindow();
+            adminWindow.Show();
+            loginRegisterWindow.Close();
         }
     }
 }

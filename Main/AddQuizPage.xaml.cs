@@ -10,28 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Main
 {
     /// <summary>
-    /// Interaction logic for AminPage.xaml
+    /// Interaction logic for AddQuizPage.xaml
     /// </summary>
-    public partial class AminPage : Window
+    public partial class AddQuizPage : Page
     {
-        public AminPage()
+        public AddQuizPage()
         {
             InitializeComponent();
-            ResizeMode = ResizeMode.NoResize;
-        }
-
-        private void Loaded(object sender, RoutedEventArgs e)
-        {
-            Frame adminFrame = new Frame();
-            adminFrame.Name = "AdminPage";
-            MainWindow.Children.Clear();
-            MainWindow.Children.Add(adminFrame);
-            adminFrame.Navigate(new AdminDashboard());
         }
     }
 }
