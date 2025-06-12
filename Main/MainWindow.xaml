@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Main"
         mc:Ignorable="d"
-        Title="QzHalley" Height="650
-        " Width="400" Icon="/Images/halley.ico">
+        Title="QzHalley" Height="650" Width="400" Icon="/Images/halley.ico">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -64,12 +63,13 @@
             </Setter>
         </Style>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0.6*"/>
             <RowDefinition Height="4*"/>
             <RowDefinition Height="2*"/>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition Height="0.3*"/>
         </Grid.RowDefinitions>
@@ -202,7 +202,7 @@
                 </Canvas>
             </Canvas>
         </Viewbox>
-        <StackPanel Orientation="Vertical" Grid.Row="2" Margin="0,0,4,0"  VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel Orientation="Vertical" Grid.Row="2" Margin="0,0,4,0" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Welcome to QzHalley"  
                        TextAlignment="Center" 
                        FontFamily="Cascadia Code" 
@@ -221,7 +221,10 @@
                        Width="360"
                        Height="40"/>
         </StackPanel>
-        <Button Style="{DynamicResource RoundButtons}" Click="authenticate_Click" Content="Authenticate" Grid.Row="3" Margin="50,10" />
+        <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock  Text="Server IP:" Margin="0,0,5,0" VerticalAlignment="Center" FontFamily="Cascadia Code" FontSize="15" FontWeight="Bold"/>
+            <TextBox x:Name="ServerIpTextBox" Width="150" Height="30" Margin="5,0" VerticalContentAlignment="Center" FontFamily="Cascadia Code" FontSize="14"/>
+        </StackPanel>
+        <Button Style="{DynamicResource RoundButtons}" Click="authenticate_Click" Content="Authenticate" Grid.Row="4" Margin="50,10" Height="50" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
-    

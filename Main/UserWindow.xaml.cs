@@ -17,22 +17,23 @@ namespace Main
     /// <summary>
     /// Interaction logic for AminPage.xaml
     /// </summary>
-    public partial class AdminWindow : Window
+    public partial class UserWindow : Window
     {
-        public AdminWindow()
+        public int UserId=0;
+        public string Username=null;
+        private string ip;
+        public UserWindow(string ip)
         {
             InitializeComponent();
             WindowStartupLocation=WindowStartupLocation.CenterScreen;
+            Title = "UserPage";
             ResizeMode = ResizeMode.NoResize;
+            this.ip = ip;
         }
 
         private void Loaded(object sender, RoutedEventArgs e)
         {
-            Frame adminFrame = new Frame();
-            adminFrame.Name = "AdminPage";
-            MainWindow.Children.Clear();
-            MainWindow.Children.Add(adminFrame);
-            adminFrame.Navigate(new AdminDashboard());
+            MainWindow?.Navigate(new Pages.UserPage(UserId,Username,ip));
         }
     }
 }

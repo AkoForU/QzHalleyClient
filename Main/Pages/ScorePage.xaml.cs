@@ -13,16 +13,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Main
+namespace ClientQzHalley.Pages
 {
     /// <summary>
-    /// Interaction logic for AddQuizPage.xaml
+    /// Interaction logic for ScorePage.xaml
     /// </summary>
-    public partial class AddQuizPage : Page
+    public partial class ScorePage : Page
     {
-        public AddQuizPage()
+        public ScorePage(string score)
         {
             InitializeComponent();
+            ScoreProcents.Text = $"You'r score is {score}%";
+        }
+
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window.GetWindow(this).Close();
         }
     }
 }

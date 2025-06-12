@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\default.jpg" />
     <None Remove="Images\halley.ico" />
     <None Remove="Images\icons\Add.png" />
     <None Remove="Images\icons\Home.png" />
@@ -19,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\default.jpg" />
     <Resource Include="Images\halley.ico" />
     <Resource Include="Images\icons\Add.png" />
     <Resource Include="Images\icons\Home.png">
