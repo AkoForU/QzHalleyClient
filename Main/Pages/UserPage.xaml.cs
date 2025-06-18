@@ -1,15 +1,11 @@
 ﻿using ClientQzHalley.Models;
 using ClientQzHalley.Pages;
 using Main.Models;
-using System;
-using System.IO.Packaging;
 using System.Net.Http;
 using System.Text.Json;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
-using static System.Net.WebRequestMethods;
 
 namespace Main.Pages
 {
