@@ -2,12 +2,12 @@
 # Overview
 QzHalleyClient is a .NET-based client application designed to work alongside the QzHalley server, providing users with an intuitive interface to authenticate, take quizzes, and view their results. This project is part of the QzHalley ecosystem, focusing on the user experience for completing educational or training quizzes managed by an administrator.
 Requirements
-
+```
 Space: At least 2 MB of disk space.
 RAM: Minimum 64 MB.
 Software: .NET SDK (version 9.0 or later) must be installed on your system.
 Server: The QzHalleyAPI server (from https://github.com/AkoForU/QzHalley) must be running on the local network.
-
+```
 ## Installation
 
 Clone the repository to your local machine:
