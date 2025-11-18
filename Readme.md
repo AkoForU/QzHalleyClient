@@ -31,7 +31,7 @@ from the project directory after building to start the application directly.
 
 ## Usage
 
-Authentication: Launch the client, enter the server IP (e.g., 192.168.167.131 as shown in the server console), and authenticate with your username and password provided by the administrator.
+Authentication: Launch the client, enter the server IP (e.g., 192.168.X.X as shown in the server console), and authenticate with your username and password provided by the administrator.
 Quiz: Once authenticated, start the test and select answers from the provided options. The result will be displayed upon completion.
 Exit: Use the "Close" button to return to the main screen or exit the application.
 
